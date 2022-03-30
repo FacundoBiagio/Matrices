@@ -44,4 +44,4 @@ public class Ejercicio_0 {
 		Ejercicio_0 miEjercicio = new Ejercicio_0();
 		System.out.println(miEjercicio.comprobar(ejemplo));
 	}
-}
+}//
