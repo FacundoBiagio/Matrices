@@ -20,7 +20,8 @@ public class Ejercicio_0 {
 	{
 	
 		int sumaDeLasAnteriores = matriz[0][0];
-		for(int i = 0; i< matriz.length; i++){
+		for(int i = 0; i< matriz.length; i++) ///matriz lengt, es el largo, en clase usea i=1 para agilizar
+		{
 			if(matriz[i][i] == sumaDeLasAnteriores)
 			{
 				sumaDeLasAnteriores = sumaDeLasAnteriores + matriz[i][i]; 
